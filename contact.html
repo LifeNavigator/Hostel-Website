@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+    <title>Welcome | About </title>
+    <meta name="description" content="Welcome to the best hostel in Nottingham, providing you a comfortable stay">
+    <meta name="keywords" content="Hostel, Nottingham">
+    <script src="https://kit.fontawesome.com/ebab11eeb6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container"> <!---------- nav container ------------>
+                <h1 class="logo"><a href="index.html">KEL</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="current" href="contact.html">contact</a></li>
+            </ul>
+            </div> <!---------- end of nav container ------------>
+        </nav>
+    </header>
+    
+    <section id="contact-form" class="py-3">
+        <div class="container"> <!---------- container to centre ------------>
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us </h1>
+            <p>Please fill our form below to contact us</p>
+
+        <form action="process.php"> <!---------- start of form ------------>
+            <div class="form-group"> <!-- container 1 -->
+                <label for="name" class="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div class="form-group"> <!-- container 2 -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div> 
+
+            <div class="form-group"> <!-- container 3 -->
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+        </div> <!-------------- container end -------------->
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+        <div class="container"> <!---------- container to centre ------------>
+            <!---------- 1st box ------------>
+            <div class="box"> 
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3> Location</h3>
+                <p>123 Street, X City, AB12 3CD</p>
+            </div>
+    
+            <!---------- 2nd box ------------>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Telephone Number</h3>
+                <p></p>
+            </div>
+            <!---------- 3rd box ------------>
+            <div class="box">
+                <i class="fas fa-envelope  fa-3x"></i>
+                <h3>Email</h3>
+                <p>support@kelhostel.com</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="main-footer"> <!---------- footer ------------>
+        <p>Kel's Hostel Practice Website &copy; 2020, All Rights Reserved </p>
+    </footer>
+</body>
+</html>
